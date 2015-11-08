@@ -1,0 +1,5 @@
+#!/bin/bash
+og_dir=$(pwd -P)
+cd "$(dirname "${BASH_SOURCE}")"
+
+. ../brew-start.sh
